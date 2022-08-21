@@ -1,33 +1,26 @@
-.flex {
-    display:flex;
-}
+/* generic styling */
+.flex { display:flex; }
+.text-decoration-none { text-decoration: none; color:#000; }
 
 /* nav bar spefific styling */
-.margin-right {
-    margin-right: 26px;
-}
-.min-width {
-    min-width:10% ;
-}
-.space {
-    justify-content: space-between;
-    align-items: center;
-}
-.nav-logo-wrapper {
-    max-width: 160px;
-}
-.nav-logo-wrapper img {
-    height:100%;
-    width:100%;
-}
+.nav-height { height:72px; }
+.left-nav { width:40%; }
+.right-nav { width:65%; }
+
+.text-align-center { text-align: center; }
+.margin-right { margin-right: 40px; }
+.min-width { min-width:12%; }
+
+.flex-nav-styling { justify-content: space-between; align-items: center; }
+.nav-logo-wrapper { max-width: 140px; }
+.nav-logo-wrapper img { height:100%; width:100%; padding:20px}
+.cart-logo-height { height:26px; }
 /* nav bar styling above ^ */
 
-
+.landing-page-height { height:90vh; }
 .background-landing-image {
-    height:86vh;
     background-image: url("/./img/landing-image.jpeg");
+    background-position: 50% 36%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-.nav-height { height:50px; }
-.left-nav { width:40%; }
-.right-nav { width:60%; }

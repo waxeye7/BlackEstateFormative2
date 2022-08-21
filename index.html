@@ -8,20 +8,21 @@
     <link rel="stylesheet" href="./styles/main.css">
 </head>
 <body>
-    <header class="background-landing-image">
+    <div id="top"></div>
+    <header class="background-landing-image landing-page-height">
         <nav class="flex nav-height">
             <div class="left-nav">
                 <div class="nav-logo-wrapper">
                     <img src="./img/logo.svg" alt="Black Estate Logo">
                 </div>
             </div>
-            <div class="right-nav flex space">
-                <div class="min-width">Home</div>
-                <div class="min-width">Shop</div>
-                <div class="min-width">About</div>
-                <div class="min-width">Experiences</div>
-                <div class="min-width">Join The Club</div>
-                <div class="min-width margin-right">Cart</div>
+            <div class="right-nav flex flex-nav-styling text-align-center">
+                <a href="#top" class="text-decoration-none"><div class="min-width">Home</div></a>
+                <a href="./shop.html" class="text-decoration-none"><div class="min-width">Shop</div></a>
+                <a href="./about.html" class="text-decoration-none"><div class="min-width">About</div></a>
+                <a href="./experience.html" class="text-decoration-none"><div class="min-width">Experiences</div></a>
+                <a href="./club.html" class="text-decoration-none"><div class="min-width">Join The Club</div></a>
+                <a href="./cart.html" class="text-decoration-none"><img src="./img/cart2.png" alt="" class="min-width margin-right cart-logo-height"></a>
             </div>
         </nav>
     </header>
