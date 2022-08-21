@@ -1,0 +1,36 @@
+/* import fonts */
+
+/* Paragraph font */
+@font-face {
+    font-family: "Questrial-Regular";
+    src: url("../fonts/Questrial-Regular.ttf");
+  }
+
+
+  /* Title font */
+@font-face {
+    font-family: "Volkhov-Regular";
+    src: url("../fonts/Volkhov-Regular.ttf");
+  }
+
+  @font-face {
+    font-family: "Volkhov-Itallic";
+    src: url("../fonts/Volkhov-Italic.ttf");
+  }
+
+  @font-face {
+    font-family: "Volkhov-Bold";
+    src: url("../fonts/Volkhov-Bold.ttf");
+  }
+
+  @font-face {
+    font-family: "Volkhov-BoldItalic";
+    src: url("../fonts/Volkhov-BoldItalic.ttf");
+  }
+
+
+/* import all style files to one so import 1 to each html file only */
+@import url("./global.css");
+@import url("./typography.css");
+@import url("./components.css");
+
