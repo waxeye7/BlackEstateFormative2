@@ -1,0 +1,33 @@
+.flex {
+    display:flex;
+}
+
+/* nav bar spefific styling */
+.margin-right {
+    margin-right: 26px;
+}
+.min-width {
+    min-width:10% ;
+}
+.space {
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo-wrapper {
+    max-width: 160px;
+}
+.nav-logo-wrapper img {
+    height:100%;
+    width:100%;
+}
+/* nav bar styling above ^ */
+
+
+.background-landing-image {
+    height:86vh;
+    background-image: url("/./img/landing-image.jpeg");
+}
+
+.nav-height { height:50px; }
+.left-nav { width:40%; }
+.right-nav { width:60%; }
