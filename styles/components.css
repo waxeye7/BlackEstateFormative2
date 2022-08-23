@@ -5,6 +5,36 @@
 .flex-column { flex-direction: column; }
 .text-decoration-none { text-decoration: none; color:#000; }
 .space-between { justify-content: space-between; }
+.space-around { justify-content: space-around; }
+.justify-center { justify-content: center; }
+.align-center { align-items: center; }
+.background-gold { background-color: #FFD30A; }
+/* 2A292F */
+.grey-background { background-color:#2A292F ; }
+.background-white { background-color: #fff; }
+.white { color:#fff; }
+.white-on-black { color:white; background-color: black;}
+.bold-italic { font-family: "Volkhov-BoldItalic"; }
+
+.black-border { border:3px black solid; }
+
+.large-padding { padding:12%; }
+.medium-padding { padding:9%; }
+.small-padding { padding:6%; }
+.very-small-padding { padding:3% }
+.very-very-small-padding { padding:1%;}
+
+.small-left-right-padding { padding:0 3%; }
+.padding-bottom { padding-bottom: 10px; }
+.padding-bot-top { padding:6% 0; }
+.large-padding-bottom { padding-bottom: 40px; }
+
+.margin-bot-top { margin:6% 0;}
+.margin-center { margin:0 auto; }
+.margin-bottom { margin-bottom: 20px; }
+.margin-right-auto { margin-right: auto; }
+.margin-left-auto { margin-left:auto; }
+.medium-left-margin { margin-left:12%; }
 
 /* nav bar spefific styling */
 .nav-height { height:72px; }
@@ -13,31 +43,66 @@
 
 .text-align-center { text-align: center; }
 .text-align-left { text-align: left; }
+.text-align-right { text-align: right; }
 .margin-right { margin-right: 40px; }
 .min-width { min-width:12%; }
 
-.flex-nav-styling { justify-content: space-between; align-items: center; }
 .nav-logo-wrapper { max-width: 140px; }
-.nav-logo-wrapper img { height:100%; width:100%; padding:20px}
+.nav-logo-wrapper img { height:100%; width:100%; padding:20px; }
 .cart-logo-height { height:26px; }
 /* nav bar styling above ^ */
 
 
 .landing-page-height { height:90vh; }
 .background-landing-image {
-    background-image: url("/./img/landing-image.jpeg");
-    background-position: 50% 36%;
+    background-image: url("../img/landing-image.jpeg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+
 /* .large-padding { padding: 4% 2% } */
-/* .margin-auto { margin:auto; } */
-.box { height:90%; width:60%; min-width:500px; bottom:5%; left:36%; border:3px black solid; z-index: -1; }
-.section-one-homepage-flex-styling { align-items: center; justify-content: center;}
-.min-height-text { min-height: 280px; }
+/* .margin-auto { margin:auto; }  max-width: 1200px; */
+.box { min-height:570px; height:90%; width:66%; min-width:80px; left:32%; top:0; bottom:0; margin:auto 0;  border:3px black solid; z-index: -100; }
+.section-one-homepage-flex-styling { align-items: center; justify-content: center; }
+.view-tours-button { width:36%; min-width: 120px; max-width:300px; text-align: center; font-family:"Volkhov-Bold";}
+.min-height-text { min-height: 360px; }
 .max-width-text { max-width: 400px; }
-.max-height-section-one-image { max-height: 550px; }
-.max-height-section-one-image img { height:100%; width:100%; }
-.small-padding { padding:3%; }
+.max-height-section-one-image { height: 610px; }
+.max-height-section-one-image img { height:100%; width:100%; object-fit: cover; object-position: 70%;}
 .flex-one { flex:1; }
+
+.middle-wine-carousel-image-wrapper { height: 600px; max-width:190px }
+.left-and-right-wine-carousel-image-wrapper { height: 500px; max-width:160px }
+.middle-wine-carousel-image-wrapper img { height:100%; width:100%; object-fit: contain; }
+.left-and-right-wine-carousel-image-wrapper img { height:100%; width:100%; object-fit: contain; }
+.arrow-image-wrapper { max-height:160px; max-width: 160px; }
+.arrow-image-wrapper img { height:100%; width:100%; }
+
+.view-wine-button { max-width: 90px; }
+.wine-cta { max-width: 400px; }
+
+.background-image-join-club-homepage {
+    background-image: url("../img/restaurant2.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:80vh;
+}
+.height-flex { min-height: 20px; max-height: 50px; }
+.join-black-estate-club-absolute-homepage {
+    height:74%;
+    width:40%;
+    min-width: 500px;
+    background-color:rgba(255, 255, 255, 0.93);
+    z-index: 2;
+    left:140px;
+    top:0;
+    bottom:0;
+    margin:auto 0;
+}
+.gallery-homepage { width:84%; margin:0 auto;}
+.wide-image-gallery-wrapper { height:60vh;  }
+.wide-image-gallery-wrapper img { width:100%; height:100%; object-fit: cover; object-position: center; }
+.change-image-gallery { top:80.5%; left:0; right:0; width:10px; }
