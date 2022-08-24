@@ -8,21 +8,23 @@
     <link rel="stylesheet" href="./styles/main.css">
 </head>
 <body>
+
     <div id="top"></div>
+
     <header class="background-landing-image landing-page-height">
         <nav class="flex nav-height">
-            <div class="left-nav">
-                <div class="nav-logo-wrapper">
-                    <a href="./index.html" class="text-decoration-none"><img src="./img/logo.svg" alt="Black Estate Logo"></a>
+            <div class="left-nav margin-right">
+                <div class="logo-wrapper">
+                    <a href="#top" class="text-decoration-none"><img src="./img/logo.svg" alt="Black Estate Logo"></a>
                 </div>
             </div>
             <div class="right-nav flex space-between align-center text-align-center">
-                <a href="#top" class="text-decoration-none"><div class="min-width">Home</div></a>
-                <a href="./shop.html" class="text-decoration-none"><div class="min-width">Shop</div></a>
-                <a href="./about.html" class="text-decoration-none"><div class="min-width">About</div></a>
-                <a href="./experience.html" class="text-decoration-none"><div class="min-width">Experiences</div></a>
-                <a href="./club.html" class="text-decoration-none"><div class="min-width">Join The Club</div></a>
-                <a href="./cart.html" class="text-decoration-none"><img src="./img/cart2.png" alt="" class="min-width margin-right cart-logo-height"></a>
+                <a href="#top" class="text-decoration-none max-width"><div class="min-width">Home</div></a>
+                <a href="./shop.html" class="text-decoration-none max-width"><div class="min-width">Shop</div></a>
+                <a href="./about.html" class="text-decoration-none max-width"><div class="min-width">About</div></a>
+                <a href="./experience.html" class="text-decoration-none max-width"><div class="min-width">Experiences</div></a>
+                <a href="./club.html" class="text-decoration-none max-width"><div class="min-width">Join The Club</div></a>
+                <a href="./cart.html" class="text-decoration-none max-width"><img src="./img/cart2.png" alt="" class="min-width margin-right cart-logo-height"></a>
             </div>
         </nav>
     </header>
@@ -30,10 +32,10 @@
     <section class="relative">
         <div class="absolute box"></div>
         <div class="flex section-one-homepage-flex-styling">
-            <div class="max-height-section-one-image small-padding flex-one">
+            <div class="max-height-section-one-image small-margin flex-one small-margin-right">
                 <img src="./img/restaurant.jpeg" alt="Image of Restaurant">
             </div>
-            <div class="flex flex-column space-between flex-one min-height-text max-width-text text-align-left small-padding">
+            <div class="flex flex-column space-around flex-one min-height-text max-width-text text-align-left small-margin padding-bot-top small-margin-left">
                 <h1>Wine Tours & Tastings</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quod tempora eos repudiandae ut quisquam. Tempora delectus porro cupiditate possimus?</p>
                 <ul>
@@ -43,7 +45,6 @@
                 </ul>
                 <a class="text-decoration-none very-small-padding background-gold view-tours-button black-border" href="./experience.html">View Tours --></a>
             </div>
-
         </div>
     </section>
 
@@ -95,14 +96,60 @@
 
     <section class="gallery-homepage relative">
         <div class="absolute change-image-gallery margin-center">dot dot dot</div>
-        <h1 class="padding-bot-top">Black Estate <span class="bold-italic">Gallery</span></h1>
-        <div class="wide-image-gallery-wrapper">
+        <h1 class="very-small-margin-bot-medium-margin-top">Black Estate <span class="bold-italic">Gallery</span></h1>
+        <div class="wide-image-gallery-wrapper black-border">
             <img src="./img/branch.jpeg" alt="Image of Farmer man cutting a branch">
         </div>
-        <div class="text-align-right margin-bot-top">
-            <a class="text-decoration-none background-gold very-very-small-padding black-border" href="#top">Back To Top</a>
+        <div class="text-align-right very-small-margin-top-medium-margin-bot">
+            <a class="text-decoration-none background-gold very-very-very-small-padding black-border" href="#top">Back To Top</a>
         </div>
     </section>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus sed doloremque iure, ducimus aspernatur id nam odio quos et aut?</p>
+
+    <footer class="footer">
+        <div class="flex">
+            <div class="flex flex-one align-center black-border border-right very-very-very-small-padding">
+                <div class="logo-wrapper-footer small-margin">
+                    <a class="text-decoration-none" href="#top"><img src="/img/logo.svg"></a>
+                </div>
+
+                <div class="flex-one">
+                    <h2 class="padding-bottom">Join the Black Estate Club</h2>
+                    <div class="flex">
+                        <input class="input-email" type="text" placeholder="Enter Your Email">
+                        <a class="text-decoration-none background-gold black-border very-very-small-padding margin-center" href="./submitted.html">Submit</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="flex-one black-border very-very-very-small-padding">
+                <div class="small-margin flex align-center">
+                    <div class="flex flex-one small-margin-left">
+                        <div class="flex flex-column small-margin flex-one">
+                            <a class="text-decoration-none" href="./shop.html"><h4 class="small-margin-bottom">Shop</h4></a>
+                            <a class="text-decoration-none" href="./experience.html"><h4>Experience</h4></a>
+                        </div>
+                        <div class="flex flex-column small-margin flex-one">
+                            <a class="text-decoration-none" href="./experience.html#restarant"><h4 class="small-margin-bottom">Restaurant</h4></a>
+                            <a class="text-decoration-none" href="#top"><h4>Home</h4></a>
+                        </div>
+                    </div>
+                    <div class="flex flex-one align-center justify-center">
+                        <div class="footer-icon-wrapper instagram">
+                            <a href="https://www.instagram.com/blackestate/?hl=en" target="_blank"><img src="./img/instagram3.png"></a>
+                        </div>
+                        <div class="footer-icon-wrapper">
+                            <a href="https://www.facebook.com/blackestatewines/" target="_blank"><img src="./img/facebook3.png"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="black-estate-license flex align-center very-very-small-padding">
+            <p>Black Estate Limited | License 57/OFF/472/2020 – expiry 28th day of November 2023 | A copy of our license can be viewed here. | Biogro No: 5202. Media + Marketing Resources</p>
+        </div>
+    </footer>
+
 </body>
 </html> 
