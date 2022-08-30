@@ -12,7 +12,7 @@
     <div id="top"></div>
 
     <header class="background-landing-image landing-page-height relative">
-        <img class="absolute teddy" src="./img/teddy.gif">
+        <!-- <img class="absolute teddy" src="./img/teddy.gif"> -->
         <nav class="flex nav-height nav-font-size">
             <div class="left-nav margin-right">
                 <div class="logo-wrapper">
@@ -30,16 +30,24 @@
         </nav>
     </header>
 
-    <section class="relative">
-        <div class="absolute box"></div>
-        <div class="flex justify-center">
-            <div class="max-height-section-one-image small-margin flex-one small-margin-right">
+    <div class="big-line line-show-responsive line-hide"></div>
+
+    <section class="relative responsive-section-one-section">
+        <div class="absolute box 
+        responsive-section-one-box"></div>
+        <div class="flex flex-responsive-section-one">
+            <div class="max-height-section-one-image small-margin flex-one small-margin-right 
+            responsive-img-wrapper-section-one">
                 <img src="./img/restaurant.jpeg" alt="Image of Restaurant">
             </div>
-            <div class="flex flex-column space-around flex-one min-height-text max-width-text text-align-left small-margin padding-bot-top small-margin-left">
+
+            <div class="line line-show-responsive line-hide negative-margin-top"></div>
+
+            <div class="flex flex-column flex-one space-around min-height-text max-width-text text-align-left small-margin padding-bot-top small-margin-left 
+            responsive-section-one-text">
                 <h1>Wine Tours & Tastings</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quod tempora eos repudiandae ut quisquam. Tempora delectus porro cupiditate possimus?</p>
-                <ul>
+                <p class="questrial">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quod tempora eos repudiandae ut quisquam. Tempora delectus porro cupiditate possimus?</p>
+                <ul class="questrial">
                     <li>Lorem ipsum dolor sit amet.</li>
                     <li>Lorem ipsum dolor sit amet.</li>
                     <li>Lorem ipsum dolor sit amet.</li>
@@ -49,32 +57,40 @@
         </div>
     </section>
 
+    <div class="big-line line-show-responsive line-hide"></div>
 
-    <section class="small-padding ">
-        <h1 class="white medium-left-margin">Try Our <span class="bold-italic">Best</span> Sellers</h1>
-        <div class="flex space-between align-center small-black-border">
-            <div class="arrow-image-wrapper margin-left-percent">
+    <section class="small-padding small-black-border-responsive 
+    responsive-carousel">
+        <h1 class="small-margin-bottom 
+        responsive-h1">Try Our <span class="bold-italic">Best</span> Sellers</h1>
+        <div class="flex space-around align-center small-black-border-desktop">
+            <div class="arrow-image-wrapper margin-left-percent 
+            responsive-arrow">
                 <img src="./img/reshot-icon-bold-arrow-left-TS2DVUZ9WY.svg">
             </div>
-            <div class="left-and-right-wine-carousel-image-wrapper flex-one">
+            <div class="left-and-right-wine-carousel-image-wrapper flex-one 
+            responsive-image-odd">
                 <img src="./img/rose.jpeg" alt="Rose">
             </div>
-            <div class="middle-wine-carousel-image-wrapper flex-one">
+            <div class="middle-wine-carousel-image-wrapper flex-one 
+            responsive-image">
                 <img src="./img/pinotnoir.jpeg" alt="Pinot Noir">
             </div>
-            <div class="left-and-right-wine-carousel-image-wrapper flex-one">
+            <div class="left-and-right-wine-carousel-image-wrapper flex-one 
+            responsive-image-odd">
                 <img src="./img/chardonnay.jpeg" alt="Chardonnay">
             </div>
-            <div class="arrow-image-wrapper margin-right-percent">
+            <div class="arrow-image-wrapper margin-right-percent 
+            responsive-arrow">
                 <img src="./img/reshot-icon-bold-arrow-right-RB7XW6DC4Z.svg">
             </div>
         </div>
         
-        <div class="line"></div>
+        <div class="line line-hide-responsive"></div>
 
-        <div class="background-white wine-cta very-very-small-padding small-black-border margin-center">
+        <div class="background-white wine-cta very-very-small-padding small-black-border-desktop margin-center">
             <h1>Home Pinot Noir (2020)</h1>
-            <p class="small-left-right-padding">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi laboriosam vero architecto sit veniam porro unde, ad nam nemo voluptatum!</p>
+            <p class="small-left-right-padding questrial">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi laboriosam vero architecto sit veniam porro unde, ad nam nemo voluptatum!</p>
 
             <div class="flex space-between align-center min-width-text small-left-right-padding">
                 <h3 class="price-carousel flex-one">$45.00</h3>
@@ -83,36 +99,46 @@
         </div>
     </section>
 
-    <section class="relative background-image-join-club-homepage">
+    <div class="big-line line-show-responsive line-hide"></div>
+
+    <section class="relative background-image-join-club-homepage 
+    responsive-text-align-center">
         <div class="absolute join-black-estate-club-absolute-homepage flex flex-column align-center justify-center">
             <div>
                 <h1 class="flex-one height-flex padding-bottom">Join the Black Estate Club</h1>
                 <h3 class="flex-one height-flex large-padding-bottom">It's FREE to sign up!</h3>
-                <li class="flex-one height-flex">Get special deals yearly.</li>
-                <li class="flex-one height-flex">Complimentary Wine Tasting Yearly.</li>
-                <li class="flex-one height-flex">Great discounts on our Award-Winning Wine.</li>
-                <li class="flex-one height-flex large-padding-bottom">Access to Limited Edition Wine.</li>
+                <li class="flex-one height-flex questrial">Get special deals yearly.</li>
+                <li class="flex-one height-flex questrial">Complimentary Wine Tasting Yearly.</li>
+                <li class="flex-one height-flex questrial">Great discounts on our Award-Winning Wine.</li>
+                <li class="flex-one height-flex large-padding-bottom questrial">Access to Limited Edition Wine.</li>
                 <a class="flex-one height-flex text-decoration-none-black white-on-black small-padding" href="./club.html">Find out More</a>
             </div>
         </div>
     </section>
 
-    <section class="gallery-homepage relative">
-        <div class="flex justify-center absolute dot-position">
-            <div class="circle-size yellow-circle border-radius-50 very-small-margin-right"></div>
-            <div class="circle-size white-circle border-radius-50 very-small-margin-right"></div>
-            <div class="circle-size white-circle border-radius-50 very-small-margin-right"></div>
+    <div class="big-line line-show-responsive line-hide"></div>
+
+    <section class="gallery-homepage relative 
+    gallery-homepage-responsive">
+        <div class="flex justify-center absolute dot-position 
+        dot-position-responsive">
+            <div class="circle-size yellow-circle border-radius-50 very-small-margin-right-fixed"></div>
+            <div class="circle-size white-circle border-radius-50 very-small-margin-right-fixed"></div>
+            <div class="circle-size white-circle border-radius-50 very-small-margin-right-fixed"></div>
             <div class="circle-size white-circle border-radius-50"></div>
         </div>
-        <h1 class="very-small-margin-bot-medium-margin-top">Black Estate <span class="bold-italic">Gallery</span></h1>
+        <h1 class="very-small-margin-bot-medium-margin-top 
+        responsive-h1-gallery">Black Estate <span class="bold-italic">Gallery</span></h1>
         <div class="wide-image-gallery-wrapper black-outline">
             <img src="./img/branch.jpeg" alt="Image of Farmer man cutting a branch">
         </div>
-        <div class="text-align-right very-small-margin-top-medium-margin-bot">
+        <div class="text-align-right small-margin-bot-medium-small-margin-top 
+        responsive-back-to-top">
             <a class="text-decoration-none-black background-gold very-very-very-small-padding black-border" href="#top">Back To Top</a>
         </div>
     </section>
 
+    <div class="thick-big-line line-show-responsive line-hide"></div>
 
     <footer class="footer">
         <div class="flex">
@@ -122,9 +148,9 @@
                 </div>
 
                 <div class="flex-one">
-                    <h2 class="padding-bottom">Join the Black Estate Club</h2>
+                    <label for="input-email" class="padding-bottom">Join the Black Estate Club</label>
                     <div class="flex">
-                        <input class="input-email" type="text" placeholder="Enter Your Email">
+                        <input id="input-email" class="input-email" type="text" placeholder="Enter Your Email">
                         <a class="text-decoration-none-black background-gold black-border very-very-small-padding margin-center" href="./submitted.html">Submit</a>
                     </div>
 
