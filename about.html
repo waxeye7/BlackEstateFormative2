@@ -7,37 +7,52 @@
     <title>About</title>
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="./img/favicon.png">
 </head>
 <body class="grey-background ">
     <div id="top"></div>
-
     <header class="black-background">
-        <nav class="flex nav-height nav-font-size">
-            <div class="left-nav margin-right">
+        <nav class="flex nav-height nav-font-size responsive-relative">
+            <div class="left-nav margin-right responsive-nav-left responsive-absolute responsive-pusher">
                 <div class="logo-wrapper">
                     <a href="./index.html" class="text-decoration-none-black"><img src="./img/logowhite.png" alt="Black Estate Logo"></a>
                 </div>
             </div>
-            <div class="right-nav flex space-between align-center text-align-center">
-                <a href="./index.html" class="text-decoration-none-black max-width-nav flex-one very-very-very-small-padding"><div class="min-width-nav white">Home</div></a>
-                <a href="./shop.html" class="text-decoration-none-black max-width-nav flex-one very-very-very-small-padding"><div class="min-width-nav white">Shop</div></a>
-                <a href="#top" class="text-decoration-none-black max-width-nav flex-one very-very-very-small-padding"><div class="min-width-nav white">About</div></a>
-                <a href="./experience.html" class="text-decoration-none-black max-width-nav flex-one very-very-very-small-padding"><div class="min-width-nav white">Experiences</div></a>
-                <a href="./club.html" class="text-decoration-none-black max-width-nav flex-one very-very-very-small-padding"><div class="min-width-nav white">Join The Club</div></a>
-                <a href="./cart.html" class="text-decoration-none-black max-width-nav flex-one very-very-very-small-padding"><img src="./img/cart3white.png" alt="" class="svg-white margin-right cart-logo-height"></a>
+
+            <div class="right-nav">
+                <div class="width-auto"></div>
+                <div id="click-me" class="hide-on-desktop text-align-right flex flex-end">
+                    <div class="burger burger-black flex flex-column justify-center align-center">
+                        <div class="oval flex-one small-margin-bot-top"></div>
+                        <div class="oval flex-one small-margin-bot-top"></div>
+                        <div class="oval flex-one small-margin-bot-top"></div>
+                    </div>
+                </div>
+                <div id="reveal-me" class="flex space-between align-center text-align-center 
+                responsive-nav-buttons responsive-column-direction responsive-opacity-one hidden very-very-small-margin-top">
+                
+                    <a href="./index.html" class="text-decoration-none-black max-width-nav flex-one very-very-very-small-padding first-link responsive-indiv-buttons"><div class="min-width-nav white">Home</div></a>
+                    <a href="./shop.html" class="text-decoration-none-black max-width-nav flex-one very-very-very-small-padding responsive-indiv-buttons"><div class="min-width-nav white">Shop</div></a>
+                    <a href="#top" class="text-decoration-none-black max-width-nav flex-one very-very-very-small-padding responsive-indiv-buttons"><div class="min-width-nav white">About</div></a>
+                    <a href="./experience.html" class="text-decoration-none-black max-width-nav flex-one very-very-very-small-padding responsive-indiv-buttons"><div class="min-width-nav white">Experiences</div></a>
+                    <a href="./club.html" class="text-decoration-none-black max-width-nav flex-one very-very-very-small-padding responsive-indiv-buttons"><div class="min-width-nav white">Join The Club</div></a>
+                    <a href="./cart.html" class="text-decoration-none-black max-width-nav flex-one very-very-very-small-padding responsive-indiv-buttons cart-class"><img src="./img/cart3white.png" alt="" class="responsive-nav-cart-logo margin-right cart-logo-height"></a>
+                </div>
             </div>
         </nav>
+        <div id="to-grow" class="grow black-background height-250 pusher-margin-bottom"></div>
+        
     </header>
 
     <h1 class="margin-bot-top white left-right-padding-5">Welcome to <span class="bold-italic">Black Estate</span></h1>
 
     <section class="relative section-padding small-margin-bottom">
-        <div class="absolute white-background-box-1"></div>
-        <div class="flex">
+        <div class="absolute white-background-box-1 responsive-go-away"></div>
+        <div class="flex responsive-about-page-sections">
             <div class="house-and-vineyard-wrapper flex-one positive-z-index">
                 <img src="./img/houseandvineyard.jpg" alt="vineyard">
             </div>
-            <div class="flex-one positive-z-index min-height-text-about-section-one flex flex-column justify-center">
+            <div class="flex-one positive-z-index min-height-text-about-section-one flex flex-column responsive-padding-top-bot justify-center responsive-white-background responsive-fix-ghost-margin-from-image">
                 <h2 class="small-margin-bottom left-right-padding">About Black Estate</h2>
                 <p class="very-small-margin-bottom left-right-padding questrial">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi accusantium alias ullam nostrum nulla, officiis cum tenetur aut consequatur optio sapiente corrupti tempora voluptatibus doloribus tempore error aspernatur velit nam, distinctio, fugit inventore dolorem libero!</p>
                 <p class="very-small-margin-bottom left-right-padding questrial">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt fugit blanditiis saepe perspiciatis in. Vitae animi ipsa fugiat porro omnis delectus voluptatibus veritatis magnam a. Fugit itaque sapiente aliquam facere provident laborum adipisci eum, cumque saepe ducimus distinctio! Blanditiis ipsa quas ab, autem error labore necessitatibus repellat expedita nobis consectetur.</p>
@@ -48,9 +63,9 @@
     </section>
 
     <section class="relative section-padding small-margin-bottom">
-        <div class="absolute white-background-box-2"></div>
-        <div class="flex">
-            <div class="flex-one positive-z-index min-height-text-about-section-one flex flex-column justify-center">
+        <div class="absolute white-background-box-2 responsive-go-away"></div>
+        <div class="flex responsive-about-page-sections-reverse">
+            <div class="flex-one positive-z-index min-height-text-about-section-one flex flex-column responsive-padding-top-bot justify-center responsive-white-background responsive-fix-ghost-margin-from-image">
                 <h2 class="small-margin-bottom left-right-padding">Our Three Hillside Vineyards</h2>
                 <h3 class="very-very-small-margin-bottom left-right-padding">Home Vineyard:</h3>
                 <p class="very-very-small-margin-bottom left-right-padding questrial">The Home Vineyard is located 6 kilometres north east of the Waipara Junction, in the Omihi sub-district of Waipara Valley, North Canterbury. The slope is a north facing sedimentary clay fan on a gentle hill side slope. The soils are mainly Awapuni clay loam with calcium carbonate deposits.</p>
@@ -67,12 +82,12 @@
     </section>
 
     <section class="relative section-padding  small-margin-bottom">
-        <div class="absolute white-background-box-1"></div>
-        <div class="flex">
+        <div class="absolute white-background-box-1 responsive-go-away"></div>
+        <div class="flex responsive-about-page-sections">
             <div class="house-and-vineyard-wrapper flex-one positive-z-index">
                 <img src="./img/people.jpg" alt="vineyard">
             </div>
-            <div class="flex-one positive-z-index min-height-text-about-section-one flex flex-column justify-center">
+            <div class="flex-one positive-z-index min-height-text-about-section-one flex flex-column justify-center responsive-white-background responsive-padding-top-bot responsive-fix-ghost-margin-from-image">
                 <h2 class="small-margin-bottom left-right-padding">Who We Are</h2>
                 <p class="very-small-margin-bottom left-right-padding questrial">We are a family owned business dedicated to producing the best quality and most delicious wine. </p>
                 <p class="very-small-margin-bottom left-right-padding questrial">Nicholas and Pen are married with two children, Sylvia and Arthur who have grown up at the Home and Netherwood vineyards.  Nicholas looks after our three vineyards and makes our wines with his team.  Pen manages the business and looks over the restaurant and cellar door with another great team.</p>
@@ -86,8 +101,8 @@
 
     <section class="background-gold">
         <h2 class="text-align-center small-padding-bot-top">Testimonials</h2>
-        <div class="flex justify-center medium-small-padding-bottom">
-            <div class="flex flex-column align-center black-border rating-section flex-one small-margin-left small-margin-right background-white very-very-small-padding">
+        <div class="flex justify-center medium-small-padding-bottom responsive-about-page-sections responsive-align-center">
+            <div class="flex flex-column align-center black-border rating-section flex-one small-margin-left small-margin-right background-white very-very-small-padding responsive-margin-bottom">
                 <div class="rating-image small-margin-bottom small-margin-top">
                     <img src="./img/brenda.jpg" alt="Brenda">
                 </div>
@@ -118,32 +133,31 @@
             </div>
         </div>
         <div class="text-align-right very-very-small-padding large-padding-bottom">
-            <a class="text-decoration-none-black background-white very-very-very-small-padding black-border" href="#top">Back To Top</a>
+            <a class="text-decoration-none-black background-white very-very-very-small-padding black-border small-margin-left small-margin-right" href="#top">Back To Top</a>
         </div>
     </section>
 
 
-
-
     <footer class="footer background-white">
-        <div class="flex">
-            <div class="flex flex-one align-center black-border border-right very-very-very-small-padding">
+        <div class="flex responsive-column-direction ">
+            <div class="flex flex-one align-center black-border border-right very-very-very-small-padding responsive-column-direction ">
                 <div class="logo-wrapper-footer small-margin">
-                    <a class="text-decoration-none-black" href="#top"><img src="/img/logo.svg"></a>
+                    <a class="text-decoration-none-black" href="./index.html"><img src="/img/logo.svg"></a>
                 </div>
 
-                <div class="flex-one">
-                    <h2 class="padding-bottom">Join the Black Estate Club</h2>
+                <div class="flex-one responsive-margin-bottom">
+                    <label for="input-email" class="padding-bottom">Join the Black Estate Club</label>
                     <div class="flex">
-                        <input class="input-email" type="text" placeholder="Enter Your Email">
+                        <input id="input-email" class="input-email responsive-margin-top" type="text" placeholder="Enter Your Email">
                         <a class="text-decoration-none-black background-gold black-border very-very-small-padding margin-center" href="./submitted.html">Submit</a>
                     </div>
 
                 </div>
             </div>
+
             <div class="flex-one black-border very-very-very-small-padding">
-                <div class="small-margin flex align-center">
-                    <div class="flex flex-one small-margin-left">
+                <div class="small-margin flex align-center responsive-column-direction">
+                    <div class="flex flex-one small-margin-left ">
                         <div class="flex flex-column small-margin flex-one">
                             <a class="text-decoration-none-black" href="./shop.html"><h4 class="small-margin-bottom">Shop</h4></a>
                             <a class="text-decoration-none-black" href="./experience.html"><h4>Experience</h4></a>
@@ -154,7 +168,7 @@
                         </div>
                     </div>
                     <div class="flex flex-one align-center justify-center">
-                        <div class="footer-icon-wrapper margin-right">
+                        <div class="footer-icon-wrapper small-margin-right responsive-margin-right">
                             <a href="https://www.instagram.com/blackestate/?hl=en" target="_blank"><img src="./img/instagramicon.svg"></a>
                         </div>
                         <div class="footer-icon-wrapper">
@@ -168,5 +182,7 @@
             <p>Black Estate Limited | License 57/OFF/472/2020 – expiry 28th day of November 2023 | A copy of our license can be <a class="text-decoration-none-white" href="https://blackestate.co.nz/wp-content/uploads/2021/11/OF472_20211115_lic.pdf" target="_blank">viewed here</a>. | Biogro No: 5202. Media + Marketing Resources</p>
         </div>
     </footer>
+
+    <script src="./script.js"></script>
 </body>
 </html>

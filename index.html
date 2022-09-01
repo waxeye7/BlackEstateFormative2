@@ -6,33 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="./img/favicon.png">
 </head>
 <body>
 
     <div id="top"></div>
 
     <header class="background-landing-image landing-page-height relative">
-        <!-- <img class="absolute teddy" src="./img/teddy.gif"> -->
-        <nav class="flex nav-height nav-font-size">
-            <div class="left-nav margin-right">
+        <nav class="flex nav-height nav-font-size responsive-relative">
+            <div class="left-nav margin-right responsive-nav-left responsive-absolute">
                 <div class="logo-wrapper">
                     <a href="#top" class="text-decoration-none-black"><img src="./img/logo.svg" alt="Black Estate Logo"></a>
                 </div>
             </div>
-            <div class="right-nav flex space-between align-center text-align-center">
-                <a href="#top" class="text-decoration-none-black max-width-nav flex-one very-very-very-small-padding"><div class="min-width-nav">Home</div></a>
-                <a href="./shop.html" class="text-decoration-none-black max-width-nav flex-one very-very-very-small-padding"><div class="min-width-nav">Shop</div></a>
-                <a href="./about.html" class="text-decoration-none-black max-width-nav flex-one very-very-very-small-padding"><div class="min-width-nav">About</div></a>
-                <a href="./experience.html" class="text-decoration-none-black max-width-nav flex-one very-very-very-small-padding"><div class="min-width-nav">Experiences</div></a>
-                <a href="./club.html" class="text-decoration-none-black max-width-nav flex-one very-very-very-small-padding"><div class="min-width-nav">Join The Club</div></a>
-                <a href="./cart.html" class="text-decoration-none-black max-width-nav flex-one very-very-very-small-padding"><img src="./img/cart3.png" alt="" class="margin-right cart-logo-height"></a>
+
+            <div class="right-nav">
+                <div class="width-auto"></div>
+                <div id="click-me" class="hide-on-desktop text-align-right flex flex-end">
+                    <div class="burger flex flex-column justify-center align-center">
+                        <div class="oval flex-one small-margin-bot-top"></div>
+                        <div class="oval flex-one small-margin-bot-top"></div>
+                        <div class="oval flex-one small-margin-bot-top"></div>
+                    </div>
+                </div>
+                <div id="reveal-me" class="flex space-between align-center text-align-center 
+                responsive-nav-buttons responsive-column-direction hidden very-very-small-margin-top">
+                
+                    <a href="#top" class="text-decoration-none-black max-width-nav flex-one very-very-very-small-padding first-link responsive-indiv-buttons"><div class="min-width-nav">Home</div></a>
+                    <a href="./shop.html" class="text-decoration-none-black max-width-nav flex-one very-very-very-small-padding responsive-indiv-buttons"><div class="min-width-nav">Shop</div></a>
+                    <a href="./about.html" class="text-decoration-none-black max-width-nav flex-one very-very-very-small-padding responsive-indiv-buttons"><div class="min-width-nav">About</div></a>
+                    <a href="./experience.html" class="text-decoration-none-black max-width-nav flex-one very-very-very-small-padding responsive-indiv-buttons"><div class="min-width-nav">Experiences</div></a>
+                    <a href="./club.html" class="text-decoration-none-black max-width-nav flex-one very-very-very-small-padding responsive-indiv-buttons"><div class="min-width-nav">Join The Club</div></a>
+                    <a href="./cart.html" class="text-decoration-none-black max-width-nav flex-one very-very-very-small-padding responsive-indiv-buttons cart-class"><img src="./img/cart3.png" alt="" class="responsive-nav-cart-logo margin-right cart-logo-height"></a>
+                </div>
             </div>
         </nav>
+        
     </header>
 
-    <div class="big-line line-show-responsive line-hide"></div>
-
-    <section class="relative responsive-section-one-section">
+    <section class="relative">
         <div class="absolute box 
         responsive-section-one-box"></div>
         <div class="flex flex-responsive-section-one">
@@ -57,7 +70,6 @@
         </div>
     </section>
 
-    <div class="big-line line-show-responsive line-hide"></div>
 
     <section class="small-padding small-black-border-responsive 
     responsive-carousel">
@@ -99,7 +111,6 @@
         </div>
     </section>
 
-    <div class="big-line line-show-responsive line-hide"></div>
 
     <section class="relative background-image-join-club-homepage 
     responsive-text-align-center">
@@ -116,7 +127,6 @@
         </div>
     </section>
 
-    <div class="big-line line-show-responsive line-hide"></div>
 
     <section class="gallery-homepage relative 
     gallery-homepage-responsive">
@@ -138,19 +148,18 @@
         </div>
     </section>
 
-    <div class="thick-big-line line-show-responsive line-hide"></div>
 
     <footer class="footer">
-        <div class="flex">
-            <div class="flex flex-one align-center black-border border-right very-very-very-small-padding">
+        <div class="flex responsive-column-direction ">
+            <div class="flex flex-one align-center black-border border-right very-very-very-small-padding responsive-column-direction ">
                 <div class="logo-wrapper-footer small-margin">
                     <a class="text-decoration-none-black" href="#top"><img src="/img/logo.svg"></a>
                 </div>
 
-                <div class="flex-one">
+                <div class="flex-one responsive-margin-bottom">
                     <label for="input-email" class="padding-bottom">Join the Black Estate Club</label>
                     <div class="flex">
-                        <input id="input-email" class="input-email" type="text" placeholder="Enter Your Email">
+                        <input id="input-email" class="input-email responsive-margin-top" type="text" placeholder="Enter Your Email">
                         <a class="text-decoration-none-black background-gold black-border very-very-small-padding margin-center" href="./submitted.html">Submit</a>
                     </div>
 
@@ -158,8 +167,8 @@
             </div>
 
             <div class="flex-one black-border very-very-very-small-padding">
-                <div class="small-margin flex align-center">
-                    <div class="flex flex-one small-margin-left">
+                <div class="small-margin flex align-center responsive-column-direction">
+                    <div class="flex flex-one small-margin-left ">
                         <div class="flex flex-column small-margin flex-one">
                             <a class="text-decoration-none-black" href="./shop.html"><h4 class="small-margin-bottom">Shop</h4></a>
                             <a class="text-decoration-none-black" href="./experience.html"><h4>Experience</h4></a>
@@ -170,7 +179,7 @@
                         </div>
                     </div>
                     <div class="flex flex-one align-center justify-center">
-                        <div class="footer-icon-wrapper margin-right">
+                        <div class="footer-icon-wrapper small-margin-right responsive-margin-right">
                             <a href="https://www.instagram.com/blackestate/?hl=en" target="_blank"><img src="./img/instagramicon.svg"></a>
                         </div>
                         <div class="footer-icon-wrapper">
@@ -184,6 +193,8 @@
             <p>Black Estate Limited | License 57/OFF/472/2020 – expiry 28th day of November 2023 | A copy of our license can be <a class="text-decoration-none-white" href="https://blackestate.co.nz/wp-content/uploads/2021/11/OF472_20211115_lic.pdf" target="_blank">viewed here</a>. | Biogro No: 5202. Media + Marketing Resources</p>
         </div>
     </footer>
+
+    <script src="./script.js"></script>
 
 </body>
 </html> 

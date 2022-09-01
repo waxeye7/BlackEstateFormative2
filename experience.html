@@ -7,30 +7,47 @@
     <title>Experience</title>
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./img/favicon.png">
 </head>
 <body class="">
+    <div id="top"></div>
     <header class="black-background">
-        <nav class="flex nav-height nav-font-size">
-            <div class="left-nav margin-right">
+        <nav class="flex nav-height nav-font-size responsive-relative">
+            <div class="left-nav margin-right responsive-nav-left responsive-absolute responsive-pusher">
                 <div class="logo-wrapper">
                     <a href="./index.html" class="text-decoration-none-black"><img src="./img/logowhite.png" alt="Black Estate Logo"></a>
                 </div>
             </div>
-            <div class="right-nav flex space-between align-center text-align-center">
-                <a href="./index.html" class="text-decoration-none-black max-width-nav flex-one very-very-very-small-padding"><div class="min-width-nav white">Home</div></a>
-                <a href="./shop.html" class="text-decoration-none-black max-width-nav flex-one very-very-very-small-padding"><div class="min-width-nav white">Shop</div></a>
-                <a href="./about.html" class="text-decoration-none-black max-width-nav flex-one very-very-very-small-padding"><div class="min-width-nav white">About</div></a>
-                <a href="#top" class="text-decoration-none-black max-width-nav flex-one very-very-very-small-padding"><div class="min-width-nav white">Experiences</div></a>
-                <a href="./club.html" class="text-decoration-none-black max-width-nav flex-one very-very-very-small-padding"><div class="min-width-nav white">Join The Club</div></a>
-                <a href="./cart.html" class="text-decoration-none-black max-width-nav flex-one very-very-very-small-padding"><img src="./img/cart3white.png" alt="" class="svg-white margin-right cart-logo-height"></a>
+
+            <div class="right-nav">
+                <div class="width-auto"></div>
+                <div id="click-me" class="hide-on-desktop text-align-right flex flex-end">
+                    <div class="burger burger-black flex flex-column justify-center align-center">
+                        <div class="oval flex-one small-margin-bot-top"></div>
+                        <div class="oval flex-one small-margin-bot-top"></div>
+                        <div class="oval flex-one small-margin-bot-top"></div>
+                    </div>
+                </div>
+                <div id="reveal-me" class="flex space-between align-center text-align-center 
+                responsive-nav-buttons responsive-column-direction responsive-opacity-one hidden very-very-small-margin-top">
+                
+                    <a href="./index.html" class="text-decoration-none-black max-width-nav flex-one very-very-very-small-padding first-link responsive-indiv-buttons"><div class="min-width-nav white">Home</div></a>
+                    <a href="./shop.html" class="text-decoration-none-black max-width-nav flex-one very-very-very-small-padding responsive-indiv-buttons"><div class="min-width-nav white">Shop</div></a>
+                    <a href="./about.html" class="text-decoration-none-black max-width-nav flex-one very-very-very-small-padding responsive-indiv-buttons"><div class="min-width-nav white">About</div></a>
+                    <a href="#top" class="text-decoration-none-black max-width-nav flex-one very-very-very-small-padding responsive-indiv-buttons"><div class="min-width-nav white">Experiences</div></a>
+                    <a href="./club.html" class="text-decoration-none-black max-width-nav flex-one very-very-very-small-padding responsive-indiv-buttons"><div class="min-width-nav white">Join The Club</div></a>
+                    <a href="./cart.html" class="text-decoration-none-black max-width-nav flex-one very-very-very-small-padding responsive-indiv-buttons cart-class"><img src="./img/cart3white.png" alt="" class="responsive-nav-cart-logo margin-right cart-logo-height"></a>
+                </div>
             </div>
         </nav>
+        <div id="to-grow" class="grow black-background height-250 smaller-pusher-margin-bottom"></div>
+        
     </header>
 
     <h1 class="white left-right-padding-5 small-padding-bot-top grey-background">Experience what Black Estate has to offer.</h1>
     <section class="section-padding grid-container grey-background">
 
-        <div class="underline-h1-hover grid-wine-tour flex flex-column">
+        <div class="underline-h1-hover grid-wine-tour flex flex-column very-small-screen-text-image-order">
             <div class="grid-content">
                 <a class="text-decoration-none" href="#wine-tours">
                     <div class="experience-img-wrapper">
@@ -41,7 +58,7 @@
             <h1 class="small-padding-bot-top white text-align-center">Wine Tours</h1>
         </div>
 
-        <div class="underline-h1-hover grid-wine-tasting flex flex-column">
+        <div class="underline-h1-hover grid-wine-tasting flex flex-column very-small-screen-text-image-order">
             <div class="grid-content">
                 <a class="text-decoration-none" href="#wine-tasting">
                     <div class="experience-img-wrapper">
@@ -53,7 +70,7 @@
         </div>
 
 
-        <div class="underline-h1-hover grid-accommodation flex flex-column">
+        <div class="underline-h1-hover grid-accommodation flex flex-column very-small-screen-text-image-order">
             <div class="grid-content">
                 <a class="text-decoration-none" href="#accommodation">
                     <div class="experience-img-wrapper">
@@ -64,7 +81,7 @@
             <h1 class="small-padding-bot-top white text-align-center">Accommodation</h1>
         </div>
 
-        <div class="underline-h1-hover grid-vineyard-trail flex flex-column">
+        <div class="underline-h1-hover grid-vineyard-trail flex flex-column very-small-screen-text-image-order">
             <div class="grid-content">
                 <a class="text-decoration-none" href="#bike">
                     <div class="experience-img-wrapper">
@@ -75,7 +92,7 @@
             <h1 class="small-padding-bot-top white text-align-center">Vineyard Trail</h1>
         </div>
 
-        <div class="underline-h1-hover grid-restaurant flex flex-column">
+        <div class="underline-h1-hover grid-restaurant flex flex-column very-small-screen-text-image-order">
             <div class="grid-content">
                 <a class="text-decoration-none" href="https://blackestate.co.nz/wp-content/uploads/2019/09/BlackEstateOnlineMenu.pdf" target="_blank">
                     <div class="experience-img-wrapper">
@@ -86,7 +103,7 @@
             <h1 class="small-padding-bot-top white text-align-center">Restaurant</h1>
         </div>
 
-        <div class="underline-h1-hover grid-truffle flex flex-column">
+        <div class="underline-h1-hover grid-truffle flex flex-column very-small-screen-text-image-order">
             <div class="grid-content">
                 <a class="text-decoration-none" href="#truffle">
                     <div class="experience-img-wrapper">
@@ -100,13 +117,13 @@
     </section>
 
     <section id="wine-tours" class="relative">
-        <div class="absolute box"></div>
-        <div class="flex justify-center">
-            <div class="relative max-height-section-one-image small-margin flex-one small-margin-right vineyard-hover-visit-instagram">
+        <div class="absolute box responsive-go-away"></div>
+        <div class="flex justify-center responsive-column-direction responsive-align-center">
+            <div class="relative max-height-section-one-image small-margin flex-one small-margin-right vineyard-hover-visit-instagram responsive-wine-tours-margin-zero">
                 <a class="absolute visit-our-instagram very-very-small-padding text-decoration-none-black" href="https://www.instagram.com/blackestate/?hl=en" target="_blank"><h3>Visit our Instagram Page!</h3></a>
                 <img src="./img/vineyard.jpeg" alt="Image of Vineyard">
             </div>
-            <div class="flex flex-column space-around flex-one min-height-text max-width-text text-align-left small-margin padding-bot-top small-margin-left">
+            <div class="flex flex-column space-around flex-one min-height-text max-width-text text-align-left small-margin small-margin-left responsive-wine-tours-center-fix-margins responsive-margin-left-right">
                 <h1 class="margin-bottom">Wine <span class="bold-italic">Tours</span></h1>
                 <p class="margin-bottom questrial">We greet you in our Netherwood Vineyard, share our approach to organic & biodynamic farming and viticulture and show you around our traditional winery. The tour is between 45 minutes to 1.5 hrs long.</p>
                 <p class="margin-bottom questrial">Your tour finishes in our Winery Room with a seated tasting of six wines accompanied by snacks.</p>
@@ -131,16 +148,16 @@
                         <h4 class="flex-one">WineMaker Tour with Nicholas</h4>
                     </div>
                 </div>
-                <a class="text-decoration-none-black very-small-padding background-gold view-tours-button black-border important-width" href="./booking1.html">Book Now</a>
+                <a class="text-decoration-none-black very-small-padding background-gold view-tours-button black-border important-width responsive-margin-center responsive-margin-bottom" href="./booking1.html">Book Now</a>
             </div>
         </div>
     </section>
 
     <h1 id="accommodation" class="left-right-padding-5 small-padding-bot-top"><span class="bold-italic">Stay </span>at Black Estate</h1>
     <section class="relative">
-        <div class="absolute box-reverse"></div>
-        <div class="flex justify-center">
-            <div class="flex flex-column space-around flex-one min-height-text max-width-text text-align-left small-margin padding-bot-top small-margin-right">
+        <div class="absolute box-reverse responsive-go-away"></div>
+        <div class="flex justify-center responsive-about-page-sections-reverse">
+            <div class="flex flex-column space-around flex-one min-height-text-bandb text-align-left small-margin small-margin-right responsive-margin-left-right responsive-padding-reset">
                 <h1 class="large-padding-bottom">Black Estate B & B</h1>
                 <div class="flex space-between ninety-six-percent-width">
                     <div class="flex flex-column align-center">
@@ -158,7 +175,7 @@
                 </div>
                 <a class="text-decoration-none-black very-small-padding background-gold view-tours-button black-border important-width" href="./experience.html">Book Now</a>
             </div>
-            <div class="max-height-section-one-image small-margin flex-one small-margin-left">
+            <div class="max-height-section-one-image small-margin flex-one small-margin-left responsive-wine-tours-margin-zero">
                 <img src="./img/bandb.jpg" alt="Image of Restaurant">
             </div>
         </div>
@@ -167,12 +184,12 @@
 
 
     <section id="" class="relative">
-        <div class="absolute box"></div>
-        <div class="flex justify-center">
-            <div class="relative max-height-section-one-image small-margin flex-one small-margin-right">
+        <div class="absolute box responsive-go-away"></div>
+        <div class="flex justify-center responsive-column-direction responsive-align-center">
+            <div class="relative max-height-section-one-image small-margin flex-one small-margin-right responsive-wine-tours-margin-zero">
                 <img src="./img/kumoko.jpeg" alt="Image of Vineyard">
             </div>
-            <div class="flex flex-column space-around flex-one min-height-text max-width-text text-align-left small-margin padding-bot-top small-margin-left">
+            <div class="flex flex-column space-around flex-one min-height-text max-width-text text-align-left small-margin padding-bot-top small-margin-left responsive-margin-left-right responsive-margin-top-bot responsive-padding-reset">
                 <h1 class="very-very-small-margin-bottom">Kumiko’s Guest House</h1>
                 <p class="margin-bottom questrial">Sharing the driveway with Black Estate restaurant,  Kumiko’s Guest House –  a luxurious three bedroom Japanese designed home with Japanese gardens, spa bath and two cute huts.</p>
 
@@ -212,13 +229,13 @@
         <div class="grey-background medium-padding-bottom">
         <h1 id="wine-tasting" class="padding-bot-top white left-right-padding-5">Wine <span class="bold-italic">Tasting</span></h1>
 
-        <section class="relative section-padding">
-            <div class="absolute white-background-box-1"></div>
-            <div class="flex">
-                <div class="house-and-vineyard-wrapper flex-one positive-z-index">
+        <section class="relative section-padding responsive-padding-reset">
+            <div class="absolute white-background-box-1 responsive-go-away"></div>
+            <div class="flex responsive-column-direction responsive-align-center">
+                <div class="wine-tasting-wrapper flex-one positive-z-index">
                     <img src="./img/winetasting.jpg" alt="vineyard">
                 </div>
-                <div class="flex-one positive-z-index min-height-text-about-section-one flex flex-column justify-center">
+                <div class="flex-one positive-z-index min-height-text-about-section-one flex flex-column justify-center responsive-white-background responsive-margin-left-right responsive-fix-ghost-margin-from-image responsive-padding-top-bot">
                     <h2 class="left-right-padding">Classic Wine Tasting on Thursday –</h2>
                     <h2 class="very-small-margin-bottom left-right-padding">Monday $25 per person.</h2>
                     <li class="left-right-padding questrial">Taste five Black Estate current release wines. </li>
@@ -241,7 +258,7 @@
 
         <section id="restaurant" class="relative restaraunt-background-image-menu margin-top">
             <div class="absolute restaurant-menu flex flex-column align-center justify-center">
-                <h1 class="small-medium-margin-bottom">Enjoy our <span class="bold-italic">Delicious</span> meals </h1>
+                <h1 class="small-medium-margin-bottom small-left-right-padding">Enjoy our <span class="bold-italic">Delicious</span> meals </h1>
                 <a class="text-decoration-none-black white-on-black very-very-small-padding small-left-right-padding" href="https://blackestate.co.nz/wp-content/uploads/2019/09/BlackEstateOnlineMenu.pdf" target="_blank">View Menu</a>
             </div>
         </section>
@@ -249,13 +266,13 @@
 
         <h1 id="bike" class="padding-bot-top white left-right-padding-5">Vineyard <span class="bold-italic">Trails</span></h1>
 
-        <section class="relative section-padding">
-            <div class="absolute white-background-box-1"></div>
-            <div class="flex">
-                <div class="house-and-vineyard-wrapper flex-one positive-z-index">
+        <section class="relative section-padding responsive-padding-reset">
+            <div class="absolute white-background-box-1 responsive-go-away"></div>
+            <div class="flex responsive-column-direction">
+                <div class="house-and-vineyard-wrapper flex-one positive-z-index responsive-wine-tours-margin-zero">
                     <img src="./img/biking.jpg" alt="vineyard">
                 </div>
-                <div class="flex-one positive-z-index min-height-text-about-section-one flex flex-column justify-center">
+                <div class="flex-one positive-z-index min-height-text-about-section-one flex flex-column justify-center responsive-white-background responsive-margin-left-right responsive-fix-ghost-margin-from-image responsive-min-height-text-valley-trail">
                     <h1 class="small-margin-bottom left-right-padding">Waipara Valley Vineyard Trail</h1>
                     <p class="very-very-small-margin-bottom left-right-padding questrial">The Waipara Valley Vineyard Trail gives riders and walkers the opportunity to experience close up world-class vineyards, historic farms and the beauty that is the Waipara Valley. </p>
                     <p class="left-right-padding medium-margin-bottom questrial">The trail weaves through the producing vineyards, accessing the Cellar Doors resturant and cafe’s of wineries that look out on the expansive views.</p>
@@ -289,10 +306,10 @@
 
 
         <h1 id="truffle" class="padding-bot-top white left-right-padding-5"><span class="bold-italic">Truffle</span> Season</h1>
-        <section class="relative section-padding">
-            <div class="absolute white-background-box-2"></div>
-            <div class="flex">
-                <div class="flex-one positive-z-index min-height-text-about-section-one flex flex-column justify-center">
+        <section class="relative section-padding responsive-padding-reset">
+            <div class="absolute white-background-box-2 responsive-go-away"></div>
+            <div class="flex responsive-about-page-sections-reverse">
+                <div class="flex-one positive-z-index min-height-text-about-section-one flex flex-column justify-center responsive-white-background responsive-fix-ghost-margin-from-image responsive-margin-left-right responsive-min-height-text-truffle">
                     <h1 class="small-margin-bottom left-right-padding">Subterranean Ascomycete Fungus</h1>
                     <p class="very-very-small-margin-bottom left-right-padding questrial">Our neighbours dig truffles from mid June to end of July.</p>
                     <p class="very-very-small-margin-bottom left-right-padding small-padding-bottom questrial">Book a table at our restaurant and join us for lunch to enjoy truffles on our menu, mellow and good with a glass of aged Black Estate wines.</p>
@@ -311,19 +328,17 @@
         </div>
     </div>
 
-
-
-    <footer class="footer">
-        <div class="flex">
-            <div class="flex flex-one align-center black-border border-right very-very-very-small-padding">
+    <footer class="footer background-white">
+        <div class="flex responsive-column-direction ">
+            <div class="flex flex-one align-center black-border border-right very-very-very-small-padding responsive-column-direction ">
                 <div class="logo-wrapper-footer small-margin">
-                    <a class="text-decoration-none-black" href="#top"><img src="/img/logo.svg"></a>
+                    <a class="text-decoration-none-black" href="./index.html"><img src="/img/logo.svg"></a>
                 </div>
 
-                <div class="flex-one">
-                    <h2 class="padding-bottom">Join the Black Estate Club</h2>
+                <div class="flex-one responsive-margin-bottom">
+                    <label for="input-email" class="padding-bottom">Join the Black Estate Club</label>
                     <div class="flex">
-                        <input class="input-email" type="text" placeholder="Enter Your Email">
+                        <input id="input-email" class="input-email responsive-margin-top" type="text" placeholder="Enter Your Email">
                         <a class="text-decoration-none-black background-gold black-border very-very-small-padding margin-center" href="./submitted.html">Submit</a>
                     </div>
 
@@ -331,19 +346,19 @@
             </div>
 
             <div class="flex-one black-border very-very-very-small-padding">
-                <div class="small-margin flex align-center">
-                    <div class="flex flex-one small-margin-left">
+                <div class="small-margin flex align-center responsive-column-direction">
+                    <div class="flex flex-one small-margin-left ">
                         <div class="flex flex-column small-margin flex-one">
                             <a class="text-decoration-none-black" href="./shop.html"><h4 class="small-margin-bottom">Shop</h4></a>
                             <a class="text-decoration-none-black" href="#top"><h4>Experience</h4></a>
                         </div>
                         <div class="flex flex-column small-margin flex-one">
-                            <a class="text-decoration-none-black" href="./experience.html#restaurant"><h4 class="small-margin-bottom">Restaurant</h4></a>
+                            <a class="text-decoration-none-black" href="#restaurant"><h4 class="small-margin-bottom">Restaurant</h4></a>
                             <a class="text-decoration-none-black" href="./index.html"><h4>Home</h4></a>
                         </div>
                     </div>
                     <div class="flex flex-one align-center justify-center">
-                        <div class="footer-icon-wrapper">
+                        <div class="footer-icon-wrapper small-margin-right responsive-margin-right">
                             <a href="https://www.instagram.com/blackestate/?hl=en" target="_blank"><img src="./img/instagramicon.svg"></a>
                         </div>
                         <div class="footer-icon-wrapper">
@@ -357,5 +372,7 @@
             <p>Black Estate Limited | License 57/OFF/472/2020 – expiry 28th day of November 2023 | A copy of our license can be <a class="text-decoration-none-white" href="https://blackestate.co.nz/wp-content/uploads/2021/11/OF472_20211115_lic.pdf" target="_blank">viewed here</a>. | Biogro No: 5202. Media + Marketing Resources</p>
         </div>
     </footer>
+
+    <script src="./script.js"></script>
 </body>
 </html>
